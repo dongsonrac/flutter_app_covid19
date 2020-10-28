@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:flushbar/flushbar.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_covid19/covid19/covid_bloc.dart';
@@ -15,12 +16,16 @@ class CovidWidget extends StatefulWidget {
 class _CovidWidgetState extends State<CovidWidget> {
   Bloc covidbloc;
   TextEditingController searchController;
-
   final GlobalKey<ScaffoldState> mScaffoldState = new GlobalKey<ScaffoldState>();
 
   void RefreshClick(String str) {
-    final snackBar = new SnackBar(content: Text(str));
-    mScaffoldState.currentState.showSnackBar(snackBar);
+    Flushbar(
+      margin: EdgeInsets.all(8),
+      borderRadius: 8,
+      backgroundColor: Colors.indigo.withOpacity(0.8),
+      messageText: Center(child: Text(str, style: TextStyle(color: Colors.white),)),
+      duration: Duration(seconds: 2),
+    )..show(context);
   }
 
   @override
@@ -63,7 +68,7 @@ class _CovidWidgetState extends State<CovidWidget> {
                 print("Refresh tap");
                 searchController = TextEditingController();
                 covidbloc.add(InitialCovidEvent());
-                RefreshClick("Refresh !!!");
+                RefreshClick("--- refreshed ---");
                 TimerInternetF5(covidbloc);
               },
             )
