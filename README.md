@@ -1,6 +1,7 @@
 # flutter_app_covid19
 
-A new Flutter application.
+Nguyễn Thanh Tính
+Covid-19 Flutter application.
 
 ## Getting Started
 
