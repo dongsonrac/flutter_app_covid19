@@ -47,25 +47,28 @@ class _CovidWidgetState extends State<CovidWidget> {
       key: mScaffoldState,
       resizeToAvoidBottomPadding: false,
       //resizeToAvoidBottomInset: false,
-      appBar: AppBar(
-        centerTitle: true,
-        title: Text("COVID-19"),
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.refresh,
-              color: Colors.white,
-            ),
-            onPressed: () {
-              FocusScope.of(context).requestFocus(FocusNode());
-              print("Refresh tap");
-              searchController = TextEditingController();
-              covidbloc.add(InitialCovidEvent());
-              RefreshClick("Refresh !!!");
-              TimerInternetF5(covidbloc);
-            },
-          )
-        ],
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(40.0),
+        child: AppBar(
+          centerTitle: true,
+          title: Text("COVID-19"),
+          actions: [
+            IconButton(
+              icon: Icon(
+                Icons.refresh,
+                color: Colors.white,
+              ),
+              onPressed: () {
+                FocusScope.of(context).requestFocus(FocusNode());
+                print("Refresh tap");
+                searchController = TextEditingController();
+                covidbloc.add(InitialCovidEvent());
+                RefreshClick("Refresh !!!");
+                TimerInternetF5(covidbloc);
+              },
+            )
+          ],
+        ),
       ),
       body: BlocBuilder<CovidBloc, CovidState>(
         cubit: covidbloc,
@@ -275,7 +278,7 @@ class _CovidWidgetState extends State<CovidWidget> {
                                 state.internet == true ?
                                 Container(
                                   width: widthscreen,
-                                  height: heightscreen - 378,
+                                  height: heightscreen - 360,
                                   child: ListView.builder(
                                     itemCount: state.listcountry.length,
                                     itemBuilder: (context, index) {
