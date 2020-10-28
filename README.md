@@ -1,6 +1,7 @@
 # flutter_app_covid19
 
 Nguyễn Thanh Tính
+
 Covid-19 Flutter application.
 
 ## Getting Started
