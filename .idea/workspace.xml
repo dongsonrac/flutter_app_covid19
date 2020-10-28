@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f1cd86e-914e-4b24-b1b3-560c60964385" name="Default Changelist" comment="TINH - 003" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Project_Flutter\flutter_app_covid19\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jDIrfEJyExt32Mb2cCQH8ZuBsf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project_Flutter\flutter_app_covid19\images" />
+      <recent name="D:\Project_Flutter\flutter_app_covid19\lib\covid19" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project_Flutter\flutter_app_covid19\lib\model" />
+      <recent name="D:\Project_Flutter\flutter_app_covid19\images" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f1cd86e-914e-4b24-b1b3-560c60964385" name="Default Changelist" comment="" />
+      <created>1603332435467</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603332435467</updated>
+    </task>
+    <task id="LOCAL-00001" summary="002">
+      <created>1603860471047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603860471047</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="002" />
+    <MESSAGE value="TINH - 003" />
+    <option name="LAST_COMMIT_MESSAGE" value="TINH - 003" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="135" y="27" key="#Images" timestamp="1603723775871">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="135" y="27" key="#Images/0.0.1366.738@0.0.1366.738" timestamp="1603723775871" />
+    <state x="134" y="34" key="#Notifications" timestamp="1603863111688">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="134" y="34" key="#Notifications/0.0.1366.738@0.0.1366.738" timestamp="1603863111688" />
+    <state x="168" y="0" key="CommitChangelistDialog2" timestamp="1603866310959">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="168" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1603866310959" />
+    <state x="332" y="125" key="FileChooserDialogImpl" timestamp="1603866077806">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="332" y="125" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1603866077806" />
+    <state x="371" y="268" key="Github.ShareDialog" timestamp="1603866480683">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="371" y="268" key="Github.ShareDialog/0.0.1366.738@0.0.1366.738" timestamp="1603866480683" />
+    <state x="222" y="59" key="Github.UntrackedFilesDialog" timestamp="1603866607955">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="222" y="59" key="Github.UntrackedFilesDialog/0.0.1366.738@0.0.1366.738" timestamp="1603866607955" />
+    <state width="1087" height="129" key="GridCell.Tab.0.bottom" timestamp="1603866445574">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1087" height="129" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1603866445574" />
+    <state width="1087" height="129" key="GridCell.Tab.0.center" timestamp="1603866445574">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1087" height="129" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1603866445574" />
+    <state width="1087" height="129" key="GridCell.Tab.0.left" timestamp="1603866445573">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1087" height="129" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1603866445573" />
+    <state width="1087" height="129" key="GridCell.Tab.0.right" timestamp="1603866445574">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1087" height="129" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1603866445574" />
+    <state x="19" y="17" key="SettingsEditor" timestamp="1603863851139">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="19" y="17" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1603863851139" />
+    <state x="110" y="107" key="Vcs.Push.Dialog.v2" timestamp="1603860479036">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="110" y="107" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1603860479036" />
+    <state x="120" y="107" width="907" height="538" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603865773220">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="120" y="107" width="907" height="538" key="com.android.tools.idea.avdmanager.AvdListDialog/0.0.1366.738@0.0.1366.738" timestamp="1603865773220" />
+    <state x="216" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1603641625858">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="216" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1603641625858" />
+  </component>
+</project>
