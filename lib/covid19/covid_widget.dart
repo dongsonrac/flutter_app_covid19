@@ -283,7 +283,7 @@ class _CovidWidgetState extends State<CovidWidget> {
                                 state.internet == true ?
                                 Container(
                                   width: widthscreen,
-                                  height: heightscreen - 360,
+                                  height: heightscreen - 380,
                                   child: ListView.builder(
                                     itemCount: state.listcountry.length,
                                     itemBuilder: (context, index) {
@@ -323,7 +323,7 @@ class _CovidWidgetState extends State<CovidWidget> {
                                   ),
                                 ) : Container(
                                   width: widthscreen,
-                                  height: heightscreen - 400,
+                                  height: heightscreen - 380,
                                   alignment: Alignment.center,
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
