@@ -323,7 +323,7 @@ class _CovidWidgetState extends State<CovidWidget> {
                                   ),
                                 ) : Container(
                                   width: widthscreen,
-                                  height: heightscreen - 380,
+                                  height: heightscreen - 400,
                                   alignment: Alignment.center,
                                   child: Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
